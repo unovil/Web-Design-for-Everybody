@@ -3,6 +3,7 @@
     src: url(font/Roboto-Regular.ttf);
 }
 
-h1{
-    font-family: Roboto;
+p{
+    line-height: 50%; /* this causes lines to overlap with each other.*/
+    line-height: 200%; /* this causes lines to be twice as far away from each other */
 }
