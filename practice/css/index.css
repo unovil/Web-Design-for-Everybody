@@ -17,15 +17,20 @@ h1{
     font-size: 300%;
 }
 
-nav{
+a.navigation{
+    color: #e2a8a8;
     font-size: 150%;
     font-family: 'Times New Roman', serif;
 }
-a.navigation{
-    color: #e2a8a8;
-}
 
 h2{
-    color: #2e8b57;
+    color: #51ff9c;
 }
 
+main{
+    background: #5d8abe;
+}
+
+footer{
+    background: #9df29d;
+}
