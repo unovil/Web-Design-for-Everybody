@@ -1,0 +1,31 @@
+@font-face{
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf)
+    /* this goes to parent folder, then goes down and finds another file. */
+}
+body{
+    background: #bebebe;
+    font-family: Roboto, Arial, sans-serif;
+}
+header{
+    text-align: center;
+    background: #7e7e7e;
+}
+
+h1{
+    color: #4ca74c;
+    font-size: 300%;
+}
+
+nav{
+    font-size: 150%;
+    font-family: 'Times New Roman', serif;
+}
+a.navigation{
+    color: #e2a8a8;
+}
+
+h2{
+    color: #2e8b57;
+}
+
