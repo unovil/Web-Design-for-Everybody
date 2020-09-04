@@ -1,4 +1,8 @@
+@font-face{
+    font-family: Roboto;
+    src: url(font/Roboto-Regular.ttf);
+}
+
 h1{
-    color: blue;
-    background-color: lightyellow;
+    font-family: Roboto;
 }
