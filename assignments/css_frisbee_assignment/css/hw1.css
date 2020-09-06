@@ -1,27 +1,7 @@
-/*
-You will review each submission based on whether each objective/style is achieved or not, and at what level. (For instance, did they put in background-color and if so, did they use hexadecimal or rgb.)
-Specifically, you will evaluate submissions by answering the following questions:
-Is the header styled with a new background color?
-Is the h1 heading styled?
-Is the h2 heading styled?
-Is the section styled with a new background color?
-Are the links styled?
-Are the images gone? They shouldn’t be there.
-
-Steps:
-Create a file called hw1.css and save it in your css folder.
-Style the page using the following rules:
-1) Style the header with a background color
-2) h1 elements should be centered and have a new font color
-3) h2 elements should have a new font color
-4) Sections should have a new background color
-5) The links should have a new font color and background color (**NOTE: earlier version of this assignment required that the link be centered. So if someone has centered them, do not deduct points.)
-6 ) The images should not appear on the page
-*/
-
 header{
     background-color: #2c2c96;
 }
+
 h1{
     text-align: center;
     color: #73F971;
@@ -29,22 +9,28 @@ h1{
     /* she (Colleen) said that the heading should be all uppercase,
     so i did this */
 }
-p{
+
+p, table{
     color: #ffffff; 
-    /* I just made the color of normal text white so that 
-    it would have high contrast with the section background*/
+    /* I just made the color of normal and table text (the table text 
+    is in teams.html) white so that it would have high contrast with 
+    the section background*/
 }
+
 section{
     background-color: #1A337F;
 }
+
 h2{
     color: #9AEABC;
     text-transform: uppercase;
 }
+
 a{
     background-color: #2C2C87;
     color: #54FF52;
 }
+
 img{
     display: none;
 }
