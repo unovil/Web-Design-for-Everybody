@@ -10,7 +10,7 @@ h1{
     so i did this */
 }
 
-p, table{
+p, th, td{
     color: #ffffff; 
     /* I just made the color of normal and table text (the table text 
     is in teams.html) white so that it would have high contrast with 
