@@ -4,33 +4,51 @@
     /* this goes to parent folder, then goes down and finds another file. */
 }
 body{
-    background: #bebebe;
-    font-family: Roboto, Arial, sans-serif;
+    font-family: Arial, Roboto, Helvetica, sans-serif;
+}
+header, main, footer {
+    margin: 10px;
 }
 header{
+    background: #21ca21; /* a bit light green */
     text-align: center;
-    background: #7e7e7e;
 }
-
 h1{
-    color: #4ca74c;
+    color: #000061; /* very dark blue */
     font-size: 300%;
+    text-align: center;
 }
-
 a.navigation{
-    color: #e2a8a8;
+    color: #3c005c; /* some shade of dark violet */
+    display: inline-block;
     font-size: 150%;
     font-family: sans-serif;
 }
 
 h2{
-    color: #51ff9c;
+    color: #0000ff; /* pure blue */
 }
-
-main{
-    background: #5d8abe;
+section{
+    display: block;
+    width: 33.3333%;
+    box-sizing: border-box;
+    height: 200px;
+    float: left;
+    border: 10px solid;
+    border-right: 0;
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
-
+#FavoriteFoods{
+    background: #ffb6c1; /* light pink */
+}
+#Achievements{
+    background: #90ee90; /* light green */
+}
+#MoreAboutMe{
+    background: #d3d3d3; /* light grey */
+    border-right: 10px solid;
+}
 footer{
-    background: #9df29d;
+    clear: both;
 }
