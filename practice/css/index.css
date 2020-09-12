@@ -7,16 +7,22 @@ body{
     font-family: Arial, Roboto, Helvetica, sans-serif;
 }
 header, main, footer {
-    margin: 10px;
+    width: 100%;
 }
 header{
-    background: #21ca21; /* a bit light green */
-    text-align: center;
+    background: #21ca21;
+    /*abitlightgreen*/text-align: center;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
 }
 h1{
     color: #000061; /* very dark blue */
     font-size: 300%;
     text-align: center;
+    margin-top: 0;
 }
 a.navigation{
     color: #3c005c; /* some shade of dark violet */
@@ -32,25 +38,42 @@ h2{
 }
 section{
     display: block;
-    width: 33.3333%;
     box-sizing: border-box;
     height: 200px;
     float: left;
-    border: 10px solid;
-    border-right: 0;
     margin-top: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     padding: 10px;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+    border-style: dashed;
+    border-width: 2px;
+}
+.half-page-section{
+    width: 49.75%;
+    box-sizing: border-box;
 }
 #FavoriteFoods{
     background: #ffb6c1; /* light pink */
+    float: left;
 }
 #Achievements{
     background: #90ee90; /* light green */
+    margin-right: 0;
+    float: right;
 }
 #MoreAboutMe{
     background: #d3d3d3; /* light grey */
-    border-right: 10px solid;
+    clear: both;
+}
+.whole-page-section{
+    width: 100%;
+}
+pre, progress{
+    display: inline;
 }
 details summary{
     font-weight: bold;
@@ -60,4 +83,7 @@ details p{
 }
 footer{
     clear: both;
+}
+div.DO-NOT-DO-ANYTHING-TO-THIS-DIV progress{
+    float: right;
 }

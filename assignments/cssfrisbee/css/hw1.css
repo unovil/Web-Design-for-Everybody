@@ -1,36 +1,65 @@
-header{
-    background-color: #2c2c96;
+* {
+    font-family: Arial, Helvetica, sans-serif;
 }
-
+body{
+    padding: 0.5%;
+    margin: 0.5%;
+}
+header{
+    background: #1a337f url(../images/flywheel.jpg) top center;
+    padding: 2%;
+}
 h1{
     text-align: center;
-    color: #73F971;
+    color: #ffffff;
     text-transform: uppercase;
-    /* she (Colleen) said that the heading should be all uppercase,
-    so i did this */
+}
+
+nav a{
+    background-color: rgba(44, 44, 135, 0.8);
+    color: #54ff52;
+    display: inline-block;
+    margin: 0 5%;
+    padding: 1% 5%;
+    text-decoration: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-sizing: border-box;
+}
+nav a.active{
+    background: #ffffff;
+    color: #232366;
 }
 
 p, th, td{
-    color: #ffffff; 
-    /* I just made the color of normal and table text (the table text 
-    is in teams.html) white so that it would have high contrast with 
-    the section background*/
+    color: #000000; 
 }
 
 section{
-    background-color: #1A337F;
+    display: block;
+    float: right;
+    width: 80%;
+    height: 460px;
+    background-color: #ffffff;
 }
 
 h2{
-    color: #9AEABC;
+    color: #1a337f;
     text-transform: uppercase;
 }
-
-a{
-    background-color: #2C2C87;
-    color: #54FF52;
+aside{
+    display: block;
+    float: left;
+    width: 20%;
+    height: 460px;
+    background: #006400;
 }
-
-img{
-    display: none;
+aside img{
+    border: 5px ridge #000000;
+    margin: 5% auto;
+    width: 75%;
+    display: block;
 }
