@@ -10,8 +10,8 @@ header, main, footer {
     width: 100%;
 }
 header{
-    background: #21ca21;
-    /*abitlightgreen*/text-align: center;
+    background: #21ca21; /*a bit light green*/
+    text-align: center;
     border-radius: 0.5em;
     -webkit-border-radius: 0.5em;
     -moz-border-radius: 0.5em;
