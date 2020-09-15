@@ -71,7 +71,7 @@ table{
     margin: 0 auto;
     font-family: sans-serif;
     box-sizing: border-box;
-} /* the table should be styled using at least four properties */
+}
 th{
     background: linear-gradient(#add8e6, #90ee90);
     border: 0.5px solid #006400;
@@ -81,21 +81,20 @@ th{
     -moz-border-radius: 5px 5px 0 0;
     -ms-border-radius: 5px 5px 0 0;
     -o-border-radius: 5px 5px 0 0;
-} /*The table headings should have a border, background color, and at least one other property.*/
+}
 tr td:not(:first-child) {
     text-align: center;
-} /*Style the table so that the text in the first column is left-aligned and the text in the other two columns is centered*/
+}
 
-/*The table elements < td > should be styled using at least four properties*/
 tr td{
     color: rgba(0, 0, 0, 0.75);
     background: rgba(173, 216, 230, 0.75);
     font-family: Roboto, Helvetica, Arial, sans-serif;
-} /*Set the opacity of the table rows to a value between .6 and .8 (make sure it is still visible)*/
+} 
 tr:hover td{
     color: #000000;
     background: rgba(173, 216, 230, 1);
-} /*Change the opacity of a row when it is hovered over*/
+} 
 
 /* line-height */
 td, th{
